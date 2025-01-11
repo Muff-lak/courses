@@ -36,7 +36,7 @@ connection_test = {'host': 'https://clickhouse.lab.karpov.courses',
 
 def report_text(chat=None):
     chat_id = chat or -938659451
-    my_token = '8150897728:AAFcOLx5PU48baHFT1tGHdHlzXiMFIK0Mjk'
+    my_token = '№№№№№№№'
     bot = telegram.Bot(token=my_token)
     q1 = """
     SELECT toDate(time) as day, uniq(user_id) AS DAU, countIf(action = 'view') AS views, countIf(action='like') AS likes, likes/views AS CTR
@@ -51,7 +51,7 @@ def report_text(chat=None):
     
 def report_plot(chat=None):
     chat_id = chat or -938659451
-    my_token = '8150897728:AAFcOLx5PU48baHFT1tGHdHlzXiMFIK0Mjk'
+    my_token = '№№№№№№№'
     bot = telegram.Bot(token=my_token)
     q2 = """
     SELECT toDate(time) as day, uniq(user_id) AS DAU, countIf(action = 'view') AS views, countIf(action='like') AS likes, likes/views AS CTR
