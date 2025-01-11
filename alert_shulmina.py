@@ -11,7 +11,7 @@ import requests
 from airflow.decorators import dag, task
 from airflow.operators.python import get_current_context
 
-my_token = '8150897728:AAFcOLx5PU48baHFT1tGHdHlzXiMFIK0Mjk'
+my_token = '№№№№№№№№№№№'
 chat_id = '-938659451'
 
 connection = {'host': 'https://clickhouse.lab.karpov.courses',
